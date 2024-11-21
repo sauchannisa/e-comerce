@@ -2,6 +2,7 @@
 import { ref } from 'vue';
 import Promotion from './components/promotion.vue';
 import Category from './components/category.vue';
+import Product from './components/product.vue';
 
 const categories = ref([
         {
@@ -90,9 +91,12 @@ const categories = ref([
         </ul>
     </div>
     <div class="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-2 gap-y-2 sm:grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-        <Promotion title="Everyday Fresh & Clean with Our Products" image="https://s3-alpha-sig.figma.com/img/de8c/488a/87b9ce16acd7436a6dec758331c840bc?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=eBaGoY030QP90fBRwlcsx9~1AGCuFC89E9fzmdCM71JghJVImUZ4JKtMyqd9E4RqtVFZ~VFqGFpi1mdSbCF~Tx9Qo9DRfPQCK4kOp2u6Xl7xC7pusoYKK-y3fMhDW28mYW1wM99FCfMJb5QVJtYwlmAvb9NCkOjGWeLvzBD2hNAUaI4eGt47WaScgbYgFMtlfHMVXkcJ06bECFFlsYXQv3MOHxmJdudBjuRAfk9VyqwaPPGmhRMPcyAtOu4hNmngyA71O2xVdf2LBr~OPf9CqGTHiJ9UeX1qFa7lK9HQWbwszFZgQcnrQ1sLxRa6eGNPXb-4XdVv-JRnQQmY7RD55A__" />
+        <Promotion title="Everyday Fresh & Clean with Our Products" image="https://clipart-library.com/image_gallery2/Onion-PNG-File.png" />
         <Promotion title="Make your Breakfast Healthy and Easy" image="https://s3-alpha-sig.figma.com/img/2738/f29f/1c4542246febe8c91ddb74ce42b81c5d?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=k68UmrSBWC8jSRnbsQsKTe5Gc19E5fFQcMtYAA4vW0NAwOeKS2HnnCqd4JadZgLPsWlGfHjyyAPUwP5z74ypYuQm7lGffz2iFZRWMynbu8dM8IAACGwh5xsH-Okx0ZbkmTnTA0jWjYwh6L6u5h185DSML5dQ~3cwr-BqTR1tbFRblzSG7dzRQHtXx1Tq-NOmgv4MCnrBWRV8a5rFVqYCWu0qW8i~553cHoMBsbk1Hr15wjAStgnRn0GFa-MKRbO9fZdLTAbJ-VwbkrbgG2AxMkWacfSg12wKaOcT-13X1b6JXjv0w6JO05hE3Vg77I2rrlvkXVpQv0H-tY3w3MjO8w__"/>
         <Promotion title="The best organic Products online" image="https://s3-alpha-sig.figma.com/img/4d69/6151/8879bc373bf5fcc1578bcec5172b087b?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dc7wBR4CRNv8A5hVXVclm0zDidMgHnSN9gM0nV9i~jPh6iZEpvEuhJqFzxw8sjo8tMRIHvcnMYx3GtPEAX~rg9BwP1PTpFz69qblO3QNt0wGYwTKUSaP-ULJcjKvDG78U1DpaiPol1pEo9ZG7YwZFNmuH4Ga8lHQ6Kbbb6YG4wAAer~66KRSwx0Jw1Rm~532E~L1amY5tnribs1KofbLS~GN3UAh~kPoZf6jTlePzc-LZigzJo8pwXxjQ0zzQ6rGbwXcXCk1uc8YQsIsPqr0H66jaU5BhtYCYSjhRzVcIOxfqNafk91557kRQrK2s~ajDZkql872Zh81e1pH8yHX7A__"/>
 
+    </div>
+    <div>
+        <Product/>
     </div>
 </template>

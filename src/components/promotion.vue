@@ -1,5 +1,5 @@
 <template>
-  <div class="promotion_card grid grid-rows-3 grid-flow-col gap-4" style="background-color: rgb(239, 232, 214);">
+  <div class="promotion_card grid grid-rows-3 grid-flow-col gap-4" style="background-color: rgba(231, 234, 243, 1);">
     <div class=" text-content row-span-2 col-span-2 ">
       <h3>{{ title }}</h3>
       <div class="container" style="border-radius: 4px; background-color: rgb(97, 181, 130); width: 80px; text-align: center; color: white"><button @click="shopNow">Shop Now</button></div> 
