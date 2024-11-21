@@ -1,33 +1,64 @@
 <template>
-  <div :style="{ backgroundColor: color }" class="product-category">
-    <img :src="image" :alt="name" style="width: 100px; height: 100px;" />
-    <h3>{{ name }}</h3>
-    <p>{{ count }} items</p>
-  </div>
-</template>
-
-<script>
-export default {
-  props: {
-    image: String,
-    name: String,
-    count: Number,
-    color: String,
-  },
-};
-</script>
-
-<style>
-.product-category {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 140px;
-  padding: 10px;
-  background-color: #f0f2f5;
-  border-radius: 10px;
-  margin: 10px;
-  cursor: pointer;
-}
-</style>
+    <div
+      @mouseover="isHovered = true"
+      @mouseleave="isHovered = false"
+      :style="{
+        hoverStyles,
+        backgroundColor: color ,
+        border: isHovered ? `2px solid gray` : ''
+      }"
+      class="product-category">
+      <img :src="image" :alt="name" class="product-image" />
+      <h3>{{ name }}</h3>
+      <p>{{ productCount }} items</p>
+    </div>
+  </template>
+  
+  <script>
+  export default {
+    props: {
+      name: String,
+      productCount: Number,
+      image: String,
+      color: String,
+    },
+  
+    data() {
+      return {
+        isHovered: false,
+      };
+    },
+    
+    
+  };
+  </script>
+  <style scoped>
+  @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..1000&display=swap");
+  
+  .product-category {
+    display: flex;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    padding: 10px;
+    background-color: #f0f2f5;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+  
+  }
+  .product-category p {
+    font-weight: 400;
+    color: gray;
+  }
+  .product-image {
+    width: 100px;
+    height: 100px;
+    margin: 0.5rem;
+  }
+  </style>

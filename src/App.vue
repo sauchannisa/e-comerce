@@ -8,7 +8,7 @@ const categories = ref([
         {
             id: 0,
             name: 'Cake & Milk',
-            imageUrl: 'https://s3-alpha-sig.figma.com/img/8370/e915/8a586f746c0b10b70cd405c8aa1f2038?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hD63Y9J-BDi3iSwmZSxDJtywiOiqiNs7rXm1jqMVvGxTOnp5GkAHDkKXEAbcQgb3SP8t8g~rJ9-TD5CpEUcVIk1xXCjEIvQZ0IjO0JJy3aDX2F42igACmCIwepdTjjYXu7b79rtSJt-ezKpN5uHo~spZNhS1liH-quvZuKlaee~8XGVaU97fy~XTHNgstqRwB~Qu8YqY3InUwDSQQaQIrWRKGgLL57Ns3xdbEFWkEj~G3tGCoWfwV5p8h4huK9g9jxf4PXROAskeix3Yg3BLXo-zyxomUdUlDOkADu6Nl-hk2JCotGtC6Q2sggnBfZfGv8R2pJReiI2teEUoyKyOYw__',
+            imageUrl: 'https://s3-alpha-sig.figma.com/img/8370/e915/8a586f746c0b10b70cd405c8aa1f2038?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=m5DLyGG~HufqX5HZmSBVlG2iqQvnlqgxrc5CS51Zx1w3G7HgfIHAC73TElcGo0ZzV-qRb8kROzaCwK0w9mp7N8jOWXPosmfZi0DdkwfD8Il15G05VxBIaS~BKmXaQi6hixlYhYG52vXTtAR4y4K6XR232GrTM-4-60741a~Olm9UIVd2biNyllLVcq0wXEHWpEc4ABjv6Kq9Q~WqOB9ONytP2rMG7GTeIwKM8-g1QoJqVNRPYXLVdIEREpR4of9f2TqAIUjjY1uCwVSy7WpOVkrZ0RIRfUIX8tNiBjjiYeGwnuAFaQyPD0cNmYh16VMA8gZF78GTYx7Uel~Bxbf4Vg__',
             quantity: 14,
             color : "bg-lime-200",
         },
@@ -44,7 +44,7 @@ const categories = ref([
         {
             id: 5,
             name: 'Black plum',
-            imageUrl: 'https://s3-alpha-sig.figma.com/img/13f9/afc8/02816b515e817bcd88800c49b947f860?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ly3VtPyuFdvJBEfLG4j~NMQSVim7GRBPG2FuAEeqt1-q3N1JLZcLifWsMdjELuzllv~1HVkU1-geIL2LVgEiHOkMmv7pEPeeXG-xCfOH8v0~od4~gSS39AfJwx3sIE5y1fG2NBcFl6687j0XErBhdCETfucgXtu84zxaWIZ5LLOVNE6c8J9oM9322U7qc-Ztq5hq2MVE6bEKoKLTsks-vPNEMXH8Y9h5t4LSPFuH5r6u99YTknlG4~Z6LX3vWXv67WPmuwYPAA22MhKXdhYREA0nyVlIc~kdmJjobsdJixEyVfV5MNe3jMBKxfvg4-3uSP2J07OonCvrarMUaE9ESQ__',
+            imageUrl: 'https://s3-alpha-sig.figma.com/img/13f9/afc8/02816b515e817bcd88800c49b947f860?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bojwXCOLS6Su3MIkQ-1a0jJtCq3AGE9HWOUSQiwzMMFVN6jQndNRn~eXembVhaPyTkHXCZ9wpEGAHuN2H3~VM33ey2bLlOQMLHS6QNdKnwmaUyjHqtQ18rHfYGA~6TDTpx7M7MeWE-V8dM1KrIZ~YfY193yQpIoJ6t3mtGoZplZrnTZWTA3MDm60pvxu7ZdwCYgTJ0ekdDcd4FgtHZI~es4n4uc9SIALJG~T9RZBl1XHnKK0dnjlGaf17QH0OahH0RnYxZYOLssjcxN787nCWGcFRLvbZ-JPr6m--Ls-jxqJvaDbzUtlflgj5rWuIxEn3BWHvDz5a9EcUGEpVLGMag__',
             quantity: 25,
             color : "bg-yellow-200",
         },
@@ -65,7 +65,7 @@ const categories = ref([
         {
             id: 8,
             name: 'Cake & Milk',
-            imageUrl: 'https://s3-alpha-sig.figma.com/img/78c4/8886/688817c7c490b88407c4904743141184?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SIM2GHPExFto3CSSkLnHRtNqxKIyqWbjHzQ-6JtMDjmE4II37oKdqHHX4bz7J4~4NUVM80TMoJS-T6Ubd6mGNiST1UnS0Fxjfi7fl8pHX8IoVgiTwngU61iZvxolB4b5X7msaO52nH0M6Un~swWfMn8zQbrOxVs6hxAJ0C6ReJnuOAJGfwc5bh2q95fcl5PMoXKJwEXWItcI5D06shSEEW6gatpSN~bSh9anLni~J-Rl9DZdITqbSHJUM3JnLrbzrK56tT0hirxDFJyZjzvJlBPI8aLDJCTTuaOFX-pXv6HJypkX36Gti2ZI1GgE-mixJA7Kncxmyk~CLB~FGCNhPA__',
+            imageUrl: 'https://s3-alpha-sig.figma.com/img/78c4/8886/688817c7c490b88407c4904743141184?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g7QagXT7WK5VNxNIYMyWv5oXbjUT15c0sWkCyR5MSM66TrScNj~GALIG8jGJ9yhqXXyDNTFqRE2~2xzljV8-1elf~Xr-Fr4HPVpekDrYqWWK0JZm4vfgzEeZB6TS8~elAgdc5yHtiitBnVZssLJWKoZ3v6kzXIj1bGHe~B4eA~SF6LDmvvuQVbh7XHifcWSg2GhuAAFlFnF2OqcLxdNs5t-MtdFtIbVcS3DHJt0pm7w40QbxcLRVL8rMnPzNbTzwrB4ULckzTnCfRmMgmaWO95UmIqgFQ~gt4RSBo0oPQLUl8BxU4E4LKGMYEltLpfmsG3n5rRk8eCnKb-cV2-uZ6w__',
             quantity: 55,
             color : "bg-teal-200",
         },
