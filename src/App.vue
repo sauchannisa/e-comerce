@@ -3,10 +3,12 @@ import { ref } from 'vue';
 
 import PromotionComponent from './components/PromotionComponent.vue';
 import CategoryComponent from './components/CategoryComponent.vue';
+import MenuComponent from './components/MenuComponent.vue';
 
 </script>
 
 <template>
+ <MenuComponent/>
   <div class="bg-white mb-10">
     <ul role="list"
       class="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-2 gap-y-2 sm:grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-10">
@@ -20,7 +22,11 @@ import CategoryComponent from './components/CategoryComponent.vue';
 </template>
 
 <script>
+import MenuComponent from './components/MenuComponent.vue';
 export default {
+  components: {
+    MenuComponent
+  },
   data() {
     return {}
   },
@@ -51,7 +57,7 @@ export default {
   mounted() {
     // Mounted life cycle - It will be executed every time
     // this component is loaded
-    this.fetchCategories()
+    this.fetchCategory() 
     this.fetchPromotions()
   }
 }
